@@ -32,8 +32,6 @@ end)
 
 Section:CreateToggle("ToggleName", function(value)
 
-local CoreGui = game:GetService("StarterGui")
-
 local onMobile = not game:GetService("UserInputService").KeyboardEnabled
 local keysDown = {}
 local rotating = false
