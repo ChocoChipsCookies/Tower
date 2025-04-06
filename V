@@ -158,7 +158,6 @@ if ActiveFreecam == true then
     end
 end
 end)
-end)
 
 --[DropDown is Same As TextBox But Different]--
 
