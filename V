@@ -31,7 +31,7 @@ end)
 --[You Can Make Toggles]--
 
 Section:CreateToggle("ToggleName", function(value)
-function(value)
+
 local CoreGui = game:GetService("StarterGui")
 
 local onMobile = not game:GetService("UserInputService").KeyboardEnabled
