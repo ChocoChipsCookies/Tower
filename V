@@ -2,15 +2,21 @@
 
 local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
  
---[Window or baseplate Make tab or section]--
+--[Window or Make tab or section]--
 
 local Window = Library:NewWindow("Tower Script")
  
---[Section - Section Usefull you don't want ok?]--
+--[Section]--
+
+local Section = Window:NewSection("Script")
+
+Section:CreateButton("ButtonName", function()
+
+end)
+
+--[Button Add Scripts in it]--
 
 local Section = Window:NewSection("Main")
- 
---[Button Add Scripts in it]--
 
 Section:CreateButton("ButtonName", function()
 print("Clicked")
