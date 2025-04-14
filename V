@@ -57,7 +57,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/RobloxScripts/ma
 end)
 
 Section:CreateButton("Reach Gui v3", function()
-
+loadstring(game:HttpGet("https://pastebin.com/raw/wTw3sJZK"))();
 end)
 
 --[creator]--
