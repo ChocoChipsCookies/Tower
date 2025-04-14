@@ -18,6 +18,18 @@ Section:CreateButton("Mobile Fly", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/8HR1w6Pp"))();
 end)
 
+Section:CreateButton("Fake-Wallhop", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/2FSMMbSC"))()
+end)
+
+Section:CreateButton("Better Walk-Fling", function()
+loadstring(game:HttpGet("https://pastefy.app/Vf5POrA6/raw"))()
+end)
+
+Section:CreateButton("Big Hit-Box", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Markklol/Script/refs/heads/main/Sword%20Script"))()
+end)
+
 --[Player]--
 
 local Section = Window:NewSection("Player")
