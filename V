@@ -26,8 +26,8 @@ Section:CreateButton("Better Walk-Fling", function()
 loadstring(game:HttpGet("https://pastefy.app/Vf5POrA6/raw"))()
 end)
 
-Section:CreateButton("Big Hit-Box", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Markklol/Script/refs/heads/main/Sword%20Script"))()
+Section:CreateButton("Kill All Script (Sword)", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/zephyr10101/sword-kill-all/main/script'))()
 end)
 
 --[Player]--
@@ -58,6 +58,10 @@ end)
 
 Section:CreateButton("Reach Gui v3", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/wTw3sJZK"))();
+end)
+
+Section:CreateButton("Sword Script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Markklol/Script/refs/heads/main/Sword%20Script"))()
 end)
 
 --[creator]--
