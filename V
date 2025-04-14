@@ -44,6 +44,22 @@ Section:CreateSlider("JumpPower", 0, 100, 15, false, function(v)
 game.Players.LocalPlayer.Character.Humanoid.JumpPwer = v
  end)
 
+--[Gui]--
+
+local Section = Window:NewSection("Gui")
+
+Section:CreateButton("Simple Hit-Box Gui", function()
+loadstring(game:HttpGet("https://pastefy.app/ItfO0tdg/raw"))()
+end)
+
+Section:CreateButton("Hit-Box Gui", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/RobloxScripts/main/HitboxExpander.lua"))()
+end)
+
+Section:CreateButton("Reach Gui v3", function()
+
+end)
+
 --[creator]--
 local Players = game:GetService("Players")
 local StarterGui = game:GetService("StarterGui")
