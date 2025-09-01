@@ -30,20 +30,6 @@ Section:CreateButton("Kill All Script (Sword)", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/zephyr10101/sword-kill-all/main/script'))()
 end)
 
---[Player]--
-
-local Section = Window:NewSection("Player")
- 
---[Slider You Can Make Speed Silder or jump Slider]--
-
-Section:CreateSlider("WalkSpeed", 0, 100, 15, false, function(v)
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
- end)
-
-Section:CreateSlider("JumpPower", 0, 100, 15, false, function(v)
-game.Players.LocalPlayer.Character.Humanoid.JumpPwer = v
- end)
-
 --[Gui]--
 
 local Section = Window:NewSection("Gui")
