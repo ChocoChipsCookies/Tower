@@ -18,10 +18,6 @@ Section:CreateButton("Mobile Fly", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/8HR1w6Pp"))();
 end)
 
-Section:CreateButton("Fake-Wallhop", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/2FSMMbSC"))()
-end)
-
 Section:CreateButton("Better Walk-Fling", function()
 loadstring(game:HttpGet("https://pastefy.app/Vf5POrA6/raw"))()
 end)
